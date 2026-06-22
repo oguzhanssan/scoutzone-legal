@@ -18,118 +18,108 @@
 <h1>ScoutZone — Privacy Policy</h1>
 <p class="muted">Last updated: June 2026 · Contact: <a href="mailto:info@rotbim.com">info@rotbim.com</a></p>
 
-<p>This Privacy Policy explains how ScoutZone ("we", "us") collects, uses and protects your information when you use our mobile application and related services.</p>
+<p>This Privacy Policy explains how ScoutZone ("we", "us") collects, uses, stores and protects your information when you use our mobile application and related services.</p>
 
-<h2>1. Information we collect</h2>
+<h2>1. Data we collect</h2>
 <ul>
-  <li><strong>Account data:</strong> when you sign in with Google or Apple, we receive your name, email address and, where provided, your profile photo. We do not receive or store your social-network password.</li>
-  <li><strong>Usage data:</strong> your favorite players, in-app messages, notification (push) token and your device language preference.</li>
-  <li><strong>What we do not collect:</strong> we do not sell your personal data, do not use advertising trackers, and do not request access to your contacts, photo library or precise location for core app features.</li>
+  <li><strong>Email</strong> — when you sign in with Apple or Google.</li>
+  <li><strong>Display name / username</strong> — from your Apple or Google profile.</li>
+  <li><strong>Profile photo (optional)</strong> — if provided at sign-in.</li>
+  <li><strong>Favorites</strong> — players you save.</li>
+  <li><strong>Messages</strong> — content and metadata needed to deliver in-app messaging.</li>
+  <li><strong>Push notification token</strong> (FCM/APNs).</li>
+  <li><strong>Device language</strong> — for localization.</li>
+  <li><strong>Subscription status</strong> — membership tier after valid Apple purchase (we do not receive payment card details).</li>
 </ul>
+<p>We do not sell personal data. We do not request contacts, photo library, precise location or health data for core features.</p>
 
-<h2>2. How we use your data</h2>
-<p>We use the information above solely to:</p>
+<h2>2. Login &amp; authentication</h2>
 <ul>
-  <li>Provide and operate the app (player search, favorites, messaging, notifications, membership).</li>
-  <li>Localize content to your device language.</li>
-  <li>Maintain security, prevent abuse and enforce our Terms.</li>
-  <li>Manage subscription entitlements linked to your account.</li>
+  <li><strong>Sign in with Apple</strong> (Apple Inc.)</li>
+  <li><strong>Google Sign-In</strong> (Google LLC)</li>
 </ul>
+<p>No email/password registration. We never receive your Apple or Google password. Sessions are validated via <strong>Firebase Authentication</strong> (Google).</p>
 
-<h2>3. Third-party services &amp; football data</h2>
-<p>Football statistics, fixtures, team logos and player photos are supplied by third-party data providers (including API-Football). News content is supplied by independent news providers. These materials remain the property of their respective rights holders.</p>
-<p>We also rely on infrastructure partners that process data on our behalf under contractual safeguards:</p>
+<h2>3. How we use your data</h2>
+<p>To operate the app (search, favorites, messaging, notifications, membership), localize content, verify subscriptions, maintain security, prevent abuse and comply with law.</p>
+
+<h2>4. Analytics &amp; crash reporting</h2>
+<p>ScoutZone does <strong>not</strong> currently use Firebase Analytics, Google Analytics, Firebase Crashlytics or advertising/behavioral analytics SDKs. We do not use cross-app tracking for ads. If we add such tools later, we will update this policy and obtain consent where required.</p>
+
+<h2>5. AI scores &amp; evaluations</h2>
+<p>Player scores, ratings and AI-assisted evaluations are generated from third-party football data using statistical and machine-learning methods. They are <strong>for general information and entertainment only</strong>. They are <strong>not</strong> professional scouting, transfer, investment or betting advice and do not guarantee any transfer or sporting outcome. We are not responsible for decisions based on these outputs or errors in source data.</p>
+
+<h2>6. Third-party services</h2>
 <ul>
-  <li><strong>Firebase (Google):</strong> authentication.</li>
-  <li><strong>Apple:</strong> in-app purchases and push delivery (where enabled).</li>
-  <li><strong>Cloud hosting &amp; database providers:</strong> secure storage and API delivery.</li>
+  <li><strong>Firebase</strong> (Google LLC) — authentication; Cloud Messaging for push tokens</li>
+  <li><strong>Google Sign-In</strong> (Google LLC)</li>
+  <li><strong>Sign in with Apple</strong> (Apple Inc.)</li>
+  <li><strong>Apple App Store &amp; StoreKit</strong> (Apple Inc.) — subscriptions; billing by Apple</li>
+  <li><strong>Apple Push Notification service (APNs)</strong></li>
+  <li><strong>API-Football / API-Sports</strong> (api-sports.io) — statistics, fixtures, logos, player photos</li>
+  <li><strong>Render.com</strong> — API cloud hosting</li>
+  <li><strong>Managed PostgreSQL</strong> — secure storage of account and app data</li>
+  <li><strong>Third-party news sources</strong> — aggregated player news</li>
 </ul>
-<p>We do not control third-party source data and cannot guarantee its completeness or accuracy.</p>
+<p>We do <strong>not</strong> use RevenueCat; subscriptions use Apple StoreKit directly. We do not control third-party football or news data.</p>
 
-<h2>4. AI / ML scores — important notice</h2>
-<p>Player scores, ratings, percentiles, form trends and scouting-style evaluations are computed by applying established statistical and machine-learning methods to the third-party football data available in our covered leagues.</p>
-<ul>
-  <li>Results are <strong>informational and advisory only</strong>; they do not constitute professional, financial or sporting advice.</li>
-  <li>Outputs depend on the quality and timeliness of source data; errors, gaps or delays in that data may affect displayed results.</li>
-  <li>We are not responsible for decisions you make based on these scores or for discrepancies caused by incomplete or inconsistent source data.</li>
-</ul>
+<h2>7. Security</h2>
+<p>HTTPS/TLS in transit. Server access requires valid session tokens. Reasonable safeguards applied; no method is 100% secure.</p>
 
-<h2>5. Security</h2>
-<p>Your data and messages are encrypted in transit (HTTPS/TLS). Our servers and database cannot be accessed without a valid authorization token. Authentication is handled via Firebase; no personal account data is exposed without a valid session.</p>
+<h2>8. Messaging &amp; user content</h2>
+<p>Messages stored for delivery. Zero tolerance for abuse. Block and report tools available.</p>
 
-<h2>6. Messaging &amp; user content</h2>
-<p>Messages are stored so they can be delivered to the intended recipient. We operate a zero-tolerance policy for objectionable content and abusive behaviour. You can block users and report content in the app; reported content may be reviewed and removed.</p>
+<h2>9. Data retention &amp; deletion</h2>
+<p>Profile → Delete Account. Soft delete 30 days; then permanent removal from active systems (limited backup retention for legal/security).</p>
 
-<h2>7. Data retention &amp; deletion</h2>
-<p>You may delete your account from <strong>Profile → Delete Account</strong>. Deletion is soft for 30 days (you may cancel by signing back in within that period); after that, your personal data is permanently removed from our active systems, subject to limited backup retention required for security or legal compliance.</p>
+<h2>10. Children</h2>
+<p>Not directed to children under applicable minimum age.</p>
 
-<h2>8. Children</h2>
-<p>The app is not directed to children under the age required by your local law. We do not knowingly collect personal data from such users.</p>
+<h2>11. International transfers</h2>
+<p>Data may be processed where our providers operate, with appropriate safeguards where required.</p>
 
-<h2>9. Changes</h2>
-<p>We may update this policy from time to time. Material changes will be reflected here with a new "Last updated" date.</p>
+<h2>12. Changes</h2>
+<p>We may update this policy; material changes shown with a new "Last updated" date.</p>
 
-<h2>10. Contact</h2>
-<p>Questions about this policy: <a href="mailto:info@rotbim.com">info@rotbim.com</a></p>
+<h2>13. Contact</h2>
+<p><a href="mailto:info@rotbim.com">info@rotbim.com</a></p>
 
 <hr>
 
 <h1>ScoutZone — Gizlilik Politikası</h1>
 <p class="muted">Son güncelleme: Haziran 2026 · İletişim: <a href="mailto:info@rotbim.com">info@rotbim.com</a></p>
 
-<p>Bu Gizlilik Politikası, ScoutZone'un ("biz") mobil uygulamasını ve ilgili hizmetleri kullanırken bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar.</p>
-
-<h2>1. Topladığımız bilgiler</h2>
+<h2>1. Toplanan veriler</h2>
 <ul>
-  <li><strong>Hesap verileri:</strong> Google veya Apple ile giriş yaptığınızda adınız, e-posta adresiniz ve varsa profil fotoğrafınız bize iletilir. Sosyal ağ şifrenizi almaz veya saklamayız.</li>
-  <li><strong>Kullanım verileri:</strong> favori oyuncularınız, uygulama içi mesajlarınız, bildirim (push) belirteciniz ve cihaz dil tercihiniz.</li>
-  <li><strong>Toplamadıklarımız:</strong> kişisel verilerinizi satmayız; reklam takibi kullanmayız; temel özellikler için rehber, fotoğraf galerisi veya hassas konum erişimi istemeyiz.</li>
+  <li><strong>E-posta</strong>, <strong>kullanıcı adı</strong>, <strong>favoriler</strong>, <strong>mesajlar</strong></li>
+  <li>Push belirteci, cihaz dili, abonelik durumu (kart bilgisi alınmaz)</li>
 </ul>
+<p>Kişisel veriler satılmaz.</p>
 
-<h2>2. Verilerinizi nasıl kullanırız</h2>
-<p>Yukarıdaki bilgileri yalnızca şu amaçlarla kullanırız:</p>
+<h2>2. Giriş</h2>
 <ul>
-  <li>Uygulamayı sunmak ve işletmek (oyuncu arama, favoriler, mesajlaşma, bildirimler, üyelik).</li>
-  <li>İçeriği cihaz dilinize göre yerelleştirmek.</li>
-  <li>Güvenliği sağlamak, kötüye kullanımı önlemek ve Koşulları uygulamak.</li>
-  <li>Hesabınıza bağlı abonelik haklarını yönetmek.</li>
+  <li><strong>Sign in with Apple</strong></li>
+  <li><strong>Google Sign-In</strong></li>
 </ul>
+<p>Şifreniz alınmaz. Firebase Authentication kullanılır.</p>
 
-<h2>3. Üçüncü taraf hizmetler &amp; futbol verisi</h2>
-<p>Futbol istatistikleri, fikstürler, takım logoları ve oyuncu fotoğrafları üçüncü taraf veri sağlayıcılarından (API-Football dahil) gelir. Haber içerikleri bağımsız haber sağlayıcılarından sunulur. Bu materyaller ilgili hak sahiplerinin mülkiyetinde kalır.</p>
-<p>Ayrıca sözleşmesel güvenceler altında veri işleyen altyapı ortaklarına güveniriz:</p>
+<h2>3. Analitik</h2>
+<p><strong>Firebase Analytics ve Crashlytics şu an kullanılmıyor.</strong> Reklam takibi yok.</p>
+
+<h2>4. AI uyarısı</h2>
+<p><strong>AI değerlendirmeleri ve skorlar yalnızca bilgi amaçlıdır;</strong> profesyonel transfer veya yatırım tavsiyesi değildir; transfer garantisi verilmez.</p>
+
+<h2>5. Üçüncü taraf hizmetler</h2>
 <ul>
-  <li><strong>Firebase (Google):</strong> kimlik doğrulama.</li>
-  <li><strong>Apple:</strong> uygulama içi satın almalar ve push iletimi (etkinse).</li>
-  <li><strong>Bulut barındırma &amp; veritabanı sağlayıcıları:</strong> güvenli depolama ve API sunumu.</li>
+  <li>Firebase, Google Sign-In, Sign in with Apple</li>
+  <li>Apple App Store / StoreKit, APNs</li>
+  <li>API-Football / API-Sports, Render.com, PostgreSQL</li>
+  <li>Üçüncü taraf haber sağlayıcıları</li>
 </ul>
-<p>Üçüncü taraf kaynak veriyi kontrol etmeyiz; eksiksizliğini veya doğruluğunu garanti edemeyiz.</p>
+<p><strong>RevenueCat kullanılmıyor.</strong></p>
 
-<h2>4. AI / ML puanları — önemli uyarı</h2>
-<p>Oyuncu puanları, ratingler, yüzdelik dilimler, form trendleri ve scouting tarzı değerlendirmeler; kapsadığımız liglerde mevcut üçüncü taraf futbol verisi üzerinde bilinen istatistiksel ve makine öğrenmesi yöntemleri uygulanarak hesaplanır.</p>
-<ul>
-  <li>Sonuçlar <strong>yalnızca bilgi ve öneri niteliğindedir</strong>; profesyonel, mali veya sportif tavsiye teşkil etmez.</li>
-  <li>Çıktılar kaynak verinin kalitesine ve güncelliğine bağlıdır; verideki hata, eksiklik veya gecikmeler görünen sonuçları etkileyebilir.</li>
-  <li>Bu puanlara dayanarak verdiğiniz kararlardan veya eksik/tutarsız kaynak veriden kaynaklanan farklılıklardan sorumlu değiliz.</li>
-</ul>
-
-<h2>5. Güvenlik</h2>
-<p>Verileriniz ve mesajlarınız aktarımda HTTPS/TLS ile şifrelenir. Sunucularımıza ve veritabanımıza geçerli bir yetkilendirme belirteci olmadan erişilemez. Kimlik doğrulama Firebase ile yapılır; geçerli oturum olmadan kişisel hesap verisi açığa çıkmaz.</p>
-
-<h2>6. Mesajlaşma &amp; kullanıcı içeriği</h2>
-<p>Mesajlar, alıcısına iletilebilmek için saklanır. Uygunsuz içerik ve kötüye kullanıma karşı sıfır tolerans uygularız. Uygulama içinden kullanıcı engelleyebilir ve içerik şikayet edebilirsiniz; şikayet edilen içerik incelenip kaldırılabilir.</p>
-
-<h2>7. Veri saklama &amp; silme</h2>
-<p>Hesabınızı <strong>Profil → Hesabı Sil</strong> üzerinden silebilirsiniz. Silme 30 gün boyunca yumuşaktır (bu sürede tekrar giriş yaparak iptal edebilirsiniz); ardından kişisel verileriniz aktif sistemlerimizden kalıcı olarak silinir (güvenlik veya yasal uyum için sınırlı yedek saklama hariç).</p>
-
-<h2>8. Çocuklar</h2>
-<p>Uygulama, yerel mevzuatınızın gerektirdiği yaşın altındaki çocuklara yönelik değildir. Bu kullanıcılardan bilerek kişisel veri toplamayız.</p>
-
-<h2>9. Değişiklikler</h2>
-<p>Bu politikayı zaman zaman güncelleyebiliriz. Önemli değişiklikler yeni "Son güncelleme" tarihiyle burada yansıtılır.</p>
-
-<h2>10. İletişim</h2>
-<p>Bu politika hakkında sorularınız: <a href="mailto:info@rotbim.com">info@rotbim.com</a></p>
+<h2>6–13. Güvenlik, mesajlaşma, silme, çocuklar, değişiklikler</h2>
+<p>Profil → Hesabı Sil (30 gün yumuşak silme). Sorular: <a href="mailto:info@rotbim.com">info@rotbim.com</a></p>
 
 </body>
 </html>
